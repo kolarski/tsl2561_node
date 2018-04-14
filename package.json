@@ -4,20 +4,20 @@
   "description": "A node.js-module for the TSL2561 light sensor",
   "main": "tsl2561.js",
   "dependencies": {
-    "i2c": "~0.1.4",
-    "underscore": "~1.5.2",
-    "async": "~0.2.9",
-    "proxyquire": "~0.5.2"
+    "i2c": "~0.2.3",
+    "underscore": "~1.8.3",
+    "async": "~2.6.0",
+    "proxyquire": "~2.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Thomas Schneider",
   "devDependencies": {
-    "grunt": "~0.4.2",
+    "grunt": "~1.0.2",
     "grunt-jsbeautifier": "~0.2.6",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-contrib-nodeunit": "~0.2.2"
+    "grunt-contrib-jshint": "~1.1.0",
+    "grunt-contrib-nodeunit": "~1.0.0"
   },
   "directories": {
     "example": "examples",
